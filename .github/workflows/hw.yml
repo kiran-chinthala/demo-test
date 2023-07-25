@@ -20,4 +20,4 @@ jobs:
         with:
           distribution: '<distribution>'
           java-version: ${{ matrix.java }}
-      - run: java HelloWorldApp.java
+      - run: java HelloWorld.java
