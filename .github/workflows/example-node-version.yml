@@ -26,9 +26,6 @@ jobs:
       - run: node -v
       - run: npm -v
 
-      - name: Checkout
-        uses: actions/checkout@v3
-
       - uses: ./
         with:
           working-directory: examples/v9/node-versions
@@ -50,9 +47,6 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: node -v
       - run: npm -v
-
-      - name: Checkout
-        uses: actions/checkout@v3
 
       - uses: ./
         with:
