@@ -1,4 +1,4 @@
-name: hw
+name: node
 on:
   push:
     branches:
